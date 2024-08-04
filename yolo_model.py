@@ -7,7 +7,7 @@ import os
 model = YOLO('best.pt')
 
 # Load an image
-image_path = 'WhatsApp Image 2024-07-12 at 17.30.22(2).jpeg'
+image_path = 'WhatsApp Image 2024-07-12 at 17.30.18(2).jpeg'
 image = cv2.imread(image_path)
 
 # Perform detection
